@@ -34,7 +34,7 @@
             }
             else if (automark == "Skoda") ;
             {
-                Console.WriteLine("Mis mudelit soovite? ´kodiaqi või octaviat");
+                Console.WriteLine("Mis mudelit soovite? ´Kodiaqi või Octaviat");
                 string škodamudel = Console.ReadLine();
                 Console.WriteLine("valisid "+škodamudel );
             }
