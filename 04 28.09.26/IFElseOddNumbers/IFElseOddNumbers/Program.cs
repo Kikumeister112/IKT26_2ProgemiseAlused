@@ -12,23 +12,28 @@
             int number = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Sisestasid numbri: " + number);
-            static void Main(string[] args)
+
+
+            if (number % 2 == 0)
             {
-                Console.WriteLine("Sisesta number:");
-
-                int number = int.Parse(Console.ReadLine());
-
-                if (number % 2 == 0)
-                {
-                    Console.WriteLine("Number on paaris.");
-                }
-                else
-                {
-                    Console.WriteLine("Number on paaritu.");
-                }
+                EvenNumber();
             }
+            else
+            {
+                oddnumbers();
+            }
+        }
+
+        static void EvenNumber()
+        {
+            Console.WriteLine("Paarisarv");
+        }
 
 
+        static void oddnumbers()
+        {
+            Console.WriteLine("Paaritud");
         }
     }
 }
+
